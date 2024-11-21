@@ -13,7 +13,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ origin: ['https://mern-backend-ss01.onrender.com'], credentials: true }));
+app.use(cors({ origin: ['https://notepenrecord.netlify.app'], credentials: true }));
 
 // Routes
 app.use('/api/user', user_router); // Use user routes for /api/user
